@@ -1,0 +1,15 @@
+# Taps
+tap "homebrew/bundle"
+
+# CLI Tools for your projects
+brew "ocaml"
+brew "opam"
+brew "rustup"
+brew "cmake"
+brew "libpcap"  # Essential for your SpyShiff project
+brew "sdl2"     # Essential for Camlboy rendering
+
+# Apps (Casks)
+cask "visual-studio-code"
+cask "iterm2"
+cask "docker"
