@@ -1,15 +1,26 @@
 # Taps
 tap "homebrew/bundle"
 
-# CLI Tools for your projects
+# System Tools
+brew "git"
+brew "gnupg"
+brew "coreutils" # GNU versions of ls, cp, etc.
+brew "gh"        # GitHub CLI
+
+# Language Toolchains
 brew "ocaml"
 brew "opam"
 brew "rustup"
+brew "llvm"      # Better C++ tooling (clangd)
 brew "cmake"
-brew "libpcap"  # Essential for your SpyShiff project
-brew "sdl2"     # Essential for Camlboy rendering
 
-# Apps (Casks)
-cask "visual-studio-code"
+# Modern CLI Replacements
+brew "fzf"       # Fuzzy finder
+brew "ripgrep"   # Faster grep (rg)
+brew "bat"       # Syntax highlighting for 'cat'
+brew "eza"       # Modern 'ls' replacement
+
+# Casks (GUI)
 cask "iterm2"
-cask "docker"
+cask "visual-studio-code"
+cask "font-fira-code-nerd-font"
